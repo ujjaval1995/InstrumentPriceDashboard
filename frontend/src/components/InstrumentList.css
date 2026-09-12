@@ -1,0 +1,86 @@
+.instrument-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header {
+  padding: 16px 12px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f5f5f5;
+}
+
+.list-header h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.instruments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.instrument-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.instrument-button {
+  flex: 1;
+  padding: 10px 12px;
+  border: none;
+  background: white;
+  color: #333;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px 0 0 4px;
+  transition: all 0.2s ease;
+}
+
+.instrument-button:hover {
+  background-color: #f0f0f0;
+}
+
+.instrument-button.active {
+  background-color: #1976d2;
+  color: white;
+  border-radius: 4px 0 0 4px;
+}
+
+.compare-btn {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid #ddd;
+  background: white;
+  color: #666;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare-btn:hover {
+  background-color: #f5f5f5;
+  border-color: #999;
+}
+
+.compare-btn.selected {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
