@@ -84,8 +84,8 @@ function App() {
     })
   }
 
-  const filteredInstruments = instruments.filter(inst =>
-    inst.ticker.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredInstruments = instruments.filter(tick =>
+    tick.ticker.toLowerCase().includes(searchQuery.toLowerCase())
   )
 
   return (
