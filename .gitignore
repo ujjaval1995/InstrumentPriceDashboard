@@ -37,6 +37,9 @@ backend/.env
 backend/.env.local
 backend/.DS_Store
 
+#venv
+venv/*
+
 # IDE
 .vscode/
 .idea/

@@ -1,0 +1,10 @@
+{
+  "name": "instrument-price-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix frontend && cd backend && python3 -m venv venv && . venv/bin/activate && pip install -r requirements.txt",
+    "backend": "cd backend && (test -d venv || python3 -m venv venv) && . venv/bin/activate && python main.py",
+    "frontend": "cd frontend && npm install && npm run dev -- --host 0.0.0.0"
+  }
+}
