@@ -46,6 +46,19 @@ InstrumentPriceDashboard/
 └── README.md
 ```
 
+## 🤖 AI-Assisted Setup Notes
+
+This project benefited from AI help in a few practical ways:
+
+- creating the initial repo structure and starter files
+- generating the base config files such as TypeScript configs, Vite setup, .gitignore, and package metadata
+- writing the first pass of the CSS and layout styling
+- helping clean up the README and setup instructions
+- iterating on helper files and project wiring so the app could run quickly
+- Creating boilerplate code for the various chart libraries used
+
+This was especially useful for the scaffold and boilerplate work, while the app logic and business behavior were still written manually and refined with the help of AI.
+
 ## 🚀 Quick Start
 
 ### Prerequisites
